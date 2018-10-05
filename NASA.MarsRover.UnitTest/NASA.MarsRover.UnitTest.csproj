@@ -22,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NASA.MarsRover.BusinessLogic\NASA.MarsRover.BusinessLogic.csproj" />
     <ProjectReference Include="..\NASA.MarsRover.Model\NASA.MarsRover.Model.csproj" />
   </ItemGroup>
 

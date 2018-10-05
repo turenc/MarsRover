@@ -6,7 +6,7 @@ namespace NASA.MarsRover.ConsoleUI {
     public static class Message {
         
         public static void Info(string message) {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine(message);
             Console.ForegroundColor = ConsoleColor.White;
         }

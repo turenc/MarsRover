@@ -6,7 +6,7 @@ using NASA.MarsRover.Service;
 namespace NASA.MarsRover.ConsoleUI {
     class Program {
 
-        //TODO:Turenc --> Generate a Windows exe --> //dotnet publish -c Debug -r win10-x64
+        //TODO:Turenc --> Generate a Windows exe commad --> //dotnet publish -c Debug -r win10-x64
         static void Main(string[] args) {
             Setup();
             MarsRoverApplication marsRoverApplication = new MarsRoverApplication();

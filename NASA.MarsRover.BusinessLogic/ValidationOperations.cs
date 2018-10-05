@@ -22,7 +22,7 @@ namespace NASA.MarsRover.BusinessLogic {
                 coordinate.Y > 0 ) {
                 return true;
             }
-            BusinessLogicException businessLogicException = new BusinessLogicException($"Coordinate is not valid. {coordinate}");
+            BusinessLogicException businessLogicException = new BusinessLogicException($"Coordinate is not valid. ({coordinate.X}, {coordinate.Y})");
             throw businessLogicException;
         }
 
@@ -37,7 +37,7 @@ namespace NASA.MarsRover.BusinessLogic {
                 coordinate.Y <= plateau.MaxY) {
                 return true;
             }
-            BusinessLogicException businessLogicException = new BusinessLogicException($"Coordinate is not found on the plateau.{coordinate}");
+            BusinessLogicException businessLogicException = new BusinessLogicException($"Coordinate is not found on the plateau.({coordinate.X}, {coordinate.Y})");
             throw businessLogicException;
         }
 
@@ -45,7 +45,7 @@ namespace NASA.MarsRover.BusinessLogic {
             if (plateau != null && plateau.Rovers != null && coordinate != null) {
                 Rover otherRover = plateau.Rovers.Where(r => r.CurrentCoordinate.X == coordinate.X && r.CurrentCoordinate.Y == coordinate.Y).FirstOrDefault();
                 if (otherRover != null) {
-                    BusinessLogicException businessLogicException = new BusinessLogicException($"There is other rover ({otherRover.RoverCode}) on this coordinate ({coordinate}).");
+                    BusinessLogicException businessLogicException = new BusinessLogicException($"There is other rover ({otherRover.RoverCode}) on this coordinate ({coordinate.X}, {coordinate.Y}).");
                     throw businessLogicException;
                 }
                 return true;

@@ -8,7 +8,7 @@ namespace NASA.Framework.Logger {
         }
 
         public Guid ErrorLog(Exception ex, string message) {
-            return Log($"{message}{System.Environment.NewLine}{ex.Message}", LogType.Error);//TODO:Inner Ex % StactTrace
+            return Log($"{message}{System.Environment.NewLine}{ex.GetaAllMessages()}", LogType.Error);
         }
 
         public Guid InfoLog(string logMessage) {
