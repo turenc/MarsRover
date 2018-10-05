@@ -1,0 +1,107 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NASA.MarsRover.ConsoleUI", "NASA.MarsRover.ConsoleUI\NASA.MarsRover.ConsoleUI.csproj", "{FED83739-EB9A-4F0F-97F7-701946A7DEB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NASA.MarsRover.UnitTest", "NASA.MarsRover.UnitTest\NASA.MarsRover.UnitTest.csproj", "{CC2BD9FA-468C-4C2B-BF86-CA19C45A28C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NASA.Framework", "NASA.Framework", "{CD65E026-A063-4DC8-8694-400261EA62E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NASA.Framework.Logger", "NASA.Framework.Logger\NASA.Framework.Logger.csproj", "{A3706005-151C-4490-8963-9AD4A54C719F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NASA.MarsRover.BusinessLogic", "NASA.MarsRover.BusinessLogic\NASA.MarsRover.BusinessLogic.csproj", "{CA3E77E5-1636-48C3-8757-0E8A5FC40DC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NASA.MarsRover.Model", "NASA.MarsRover.Model\NASA.MarsRover.Model.csproj", "{F30AE5C0-802C-473B-92CE-40AC228E3CAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NASA.MarsRover.Service", "NASA.MarsRover.Service\NASA.MarsRover.Service.csproj", "{3B6B8E77-B553-4038-86D5-98849194E491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NASA.Framework.BusinessLogic", "NASA.Framework.BusinessLogic\NASA.Framework.BusinessLogic.csproj", "{CE4EEFA4-562C-4A41-AEBC-DE9080503B67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NASA.Framework.Service", "NASA.Framework.Service\NASA.Framework.Service.csproj", "{84BB90F5-08C3-4BF7-A6B0-DAF531DD9E23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FED83739-EB9A-4F0F-97F7-701946A7DEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED83739-EB9A-4F0F-97F7-701946A7DEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED83739-EB9A-4F0F-97F7-701946A7DEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED83739-EB9A-4F0F-97F7-701946A7DEB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC2BD9FA-468C-4C2B-BF86-CA19C45A28C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC2BD9FA-468C-4C2B-BF86-CA19C45A28C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC2BD9FA-468C-4C2B-BF86-CA19C45A28C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC2BD9FA-468C-4C2B-BF86-CA19C45A28C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3706005-151C-4490-8963-9AD4A54C719F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3706005-151C-4490-8963-9AD4A54C719F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3706005-151C-4490-8963-9AD4A54C719F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3706005-151C-4490-8963-9AD4A54C719F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA3E77E5-1636-48C3-8757-0E8A5FC40DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3E77E5-1636-48C3-8757-0E8A5FC40DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3E77E5-1636-48C3-8757-0E8A5FC40DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3E77E5-1636-48C3-8757-0E8A5FC40DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F30AE5C0-802C-473B-92CE-40AC228E3CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30AE5C0-802C-473B-92CE-40AC228E3CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30AE5C0-802C-473B-92CE-40AC228E3CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30AE5C0-802C-473B-92CE-40AC228E3CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B6B8E77-B553-4038-86D5-98849194E491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B6B8E77-B553-4038-86D5-98849194E491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B6B8E77-B553-4038-86D5-98849194E491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B6B8E77-B553-4038-86D5-98849194E491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE4EEFA4-562C-4A41-AEBC-DE9080503B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE4EEFA4-562C-4A41-AEBC-DE9080503B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE4EEFA4-562C-4A41-AEBC-DE9080503B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE4EEFA4-562C-4A41-AEBC-DE9080503B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84BB90F5-08C3-4BF7-A6B0-DAF531DD9E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84BB90F5-08C3-4BF7-A6B0-DAF531DD9E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84BB90F5-08C3-4BF7-A6B0-DAF531DD9E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84BB90F5-08C3-4BF7-A6B0-DAF531DD9E23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3706005-151C-4490-8963-9AD4A54C719F} = {CD65E026-A063-4DC8-8694-400261EA62E6}
+		{CE4EEFA4-562C-4A41-AEBC-DE9080503B67} = {CD65E026-A063-4DC8-8694-400261EA62E6}
+		{84BB90F5-08C3-4BF7-A6B0-DAF531DD9E23} = {CD65E026-A063-4DC8-8694-400261EA62E6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8B9A9FD-3533-47DE-873E-99246DAFDF35}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://zed-tc.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = NASA.Framework.BusinessLogic\\NASA.Framework.BusinessLogic.csproj
+		SccProjectTopLevelParentUniqueName1 = NASA.MarsRover.sln
+		SccProjectName1 = NASA.Framework.BusinessLogic
+		SccLocalPath1 = NASA.Framework.BusinessLogic
+		SccProjectUniqueName2 = NASA.Framework.Logger\\NASA.Framework.Logger.csproj
+		SccProjectTopLevelParentUniqueName2 = NASA.MarsRover.sln
+		SccProjectName2 = NASA.Framework.Logger
+		SccLocalPath2 = NASA.Framework.Logger
+		SccProjectUniqueName3 = NASA.Framework.Service\\NASA.Framework.Service.csproj
+		SccProjectTopLevelParentUniqueName3 = NASA.MarsRover.sln
+		SccProjectName3 = NASA.Framework.Service
+		SccLocalPath3 = NASA.Framework.Service
+		SccProjectUniqueName4 = NASA.MarsRover.BusinessLogic\\NASA.MarsRover.BusinessLogic.csproj
+		SccProjectName4 = NASA.MarsRover.BusinessLogic
+		SccLocalPath4 = NASA.MarsRover.BusinessLogic
+		SccProjectUniqueName5 = NASA.MarsRover.ConsoleUI\\NASA.MarsRover.ConsoleUI.csproj
+		SccProjectName5 = NASA.MarsRover.ConsoleUI
+		SccLocalPath5 = NASA.MarsRover.ConsoleUI
+		SccProjectUniqueName6 = NASA.MarsRover.Model\\NASA.MarsRover.Model.csproj
+		SccProjectName6 = NASA.MarsRover.Model
+		SccLocalPath6 = NASA.MarsRover.Model
+		SccProjectUniqueName7 = NASA.MarsRover.Service\\NASA.MarsRover.Service.csproj
+		SccProjectName7 = NASA.MarsRover.Service
+		SccLocalPath7 = NASA.MarsRover.Service
+		SccProjectUniqueName8 = NASA.MarsRover.UnitTest\\NASA.MarsRover.UnitTest.csproj
+		SccProjectName8 = NASA.MarsRover.UnitTest
+		SccLocalPath8 = NASA.MarsRover.UnitTest
+	EndGlobalSection
+EndGlobal
