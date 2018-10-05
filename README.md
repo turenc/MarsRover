@@ -41,6 +41,7 @@ Expected Output:
 Note: 
 
 Minimum project requirements  --> Visual Studio 2017 (minimum version:15.7.6) with .Net Core SDK 2.1
+
 Generate a Windows exe commad --> //dotnet publish -c Debug -r win10-x64
 
 turenc.
