@@ -71,37 +71,4 @@ Global
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A8B9A9FD-3533-47DE-873E-99246DAFDF35}
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 9
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://zed-tc.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = NASA.Framework.BusinessLogic\\NASA.Framework.BusinessLogic.csproj
-		SccProjectTopLevelParentUniqueName1 = NASA.MarsRover.sln
-		SccProjectName1 = NASA.Framework.BusinessLogic
-		SccLocalPath1 = NASA.Framework.BusinessLogic
-		SccProjectUniqueName2 = NASA.Framework.Logger\\NASA.Framework.Logger.csproj
-		SccProjectTopLevelParentUniqueName2 = NASA.MarsRover.sln
-		SccProjectName2 = NASA.Framework.Logger
-		SccLocalPath2 = NASA.Framework.Logger
-		SccProjectUniqueName3 = NASA.Framework.Service\\NASA.Framework.Service.csproj
-		SccProjectTopLevelParentUniqueName3 = NASA.MarsRover.sln
-		SccProjectName3 = NASA.Framework.Service
-		SccLocalPath3 = NASA.Framework.Service
-		SccProjectUniqueName4 = NASA.MarsRover.BusinessLogic\\NASA.MarsRover.BusinessLogic.csproj
-		SccProjectName4 = NASA.MarsRover.BusinessLogic
-		SccLocalPath4 = NASA.MarsRover.BusinessLogic
-		SccProjectUniqueName5 = NASA.MarsRover.ConsoleUI\\NASA.MarsRover.ConsoleUI.csproj
-		SccProjectName5 = NASA.MarsRover.ConsoleUI
-		SccLocalPath5 = NASA.MarsRover.ConsoleUI
-		SccProjectUniqueName6 = NASA.MarsRover.Model\\NASA.MarsRover.Model.csproj
-		SccProjectName6 = NASA.MarsRover.Model
-		SccLocalPath6 = NASA.MarsRover.Model
-		SccProjectUniqueName7 = NASA.MarsRover.Service\\NASA.MarsRover.Service.csproj
-		SccProjectName7 = NASA.MarsRover.Service
-		SccLocalPath7 = NASA.MarsRover.Service
-		SccProjectUniqueName8 = NASA.MarsRover.UnitTest\\NASA.MarsRover.UnitTest.csproj
-		SccProjectName8 = NASA.MarsRover.UnitTest
-		SccLocalPath8 = NASA.MarsRover.UnitTest
-	EndGlobalSection
 EndGlobal
