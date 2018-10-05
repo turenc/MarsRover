@@ -10,7 +10,7 @@ namespace NASA.MarsRover.ConsoleUI.Stages {
 
         protected override void BeforeExecute() {
             Message.Info(@"
---- ROVER DEFINITION STAGE ---");
+--- ROVER DEFINITION OR ROVER SELECTION STAGE ---");
         }
 
         protected override void ExecuteLoop() {
